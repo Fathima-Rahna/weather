@@ -1,0 +1,51 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./para.jpg);
+    background-position: center;
+    background-size: cover;
+}
+*{
+    margin:0;
+    
+
+}.container .row .heading h1{
+    font-size: 48px;
+font-weight: 500;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    
+   
+}
+.container .row .heading{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+}
+.paragraph{
+    height: 500px;
+    background-color: grey;
+    width:75%;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin-top: 24px;
+    padding: 24px;
+
+   
+}
+.container .row .paragraph .cityinput{
+    padding: 50px;
+}
+.button{
+    width:25%;
+}
